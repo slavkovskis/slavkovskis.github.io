@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+        .w3-row-padding img {margin-bottom: 12px}
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {width: 120px;background: #F0A500;}
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {margin-left: 120px}
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+</head>
+<body class="w3-custom">
+
+<!-- Бар за икони -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Слика над се -->
+    <img src="images/me2blur.jpg" style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-custom">
+        <img src="images/home.png" width="30" height="30">
+        <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-custom w3-white">
+        <img src="images/about.png" width="30" height="30">
+        <p>ABOUT</p>
+    </a>
+    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-custom w3-white">
+        <img src="images/joystick-32.png" width="30" height="30">
+        <p>LEVELS</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-custom w3-white">
+        <img src="images/mail-512.png" width="30" height="30">
+        <p>CONTACT</p>
+    </a>
+</nav>
+
+<!-- Навбар на помали екрани -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-custom w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+        <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+        <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+</div>
+
+<!-- Содржина на страната -->
+<div class="w3-padding-large" id="main">
+    <!-- Header -->
+    <header class="w3-container w3-padding-32 w3-center w3-custom" id="home">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">Јас сум</span> Славе Славковски.</h1>
+        <p>Level Designer и Web Designer.</p>
+        <img src="images/me2.png" alt="boy" class="w3-image" width="511"  height="541">
+    </header>
+
+    <!-- About -->
+    <div class="w3-content w3-justify w3-text w3-padding-64" id="about">
+        <h2 class="w3-text-header">Малку за мене</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p>Здраво ја се викам Славе Славковски и сум роден и израснат во Велес, Македонија.
+        </p>
+        <p>Како мал веќе бев повеќе заинтересиран во компјутери а понатаму после моето школување во СОУ „Кочо Рацин“ дојдов до мало збунување и незнаење што да правам понатаму.
+        После долго размислување се запишав на ФИНКИ. Во моето школување во ФИНКИ ја открив мојата љубов кон програмирање, кон 3д моделирање и кон веб дизајн. Почнав да работам
+        freelance со моите знаења и стекнав да работам на повеќе игри како Level Designer.</p>
+        <h3 class="w3-padding-16 w3-text-header">Моите вештини</h3>
+        <p class="w3-wide">Level design</p>
+        <div class="w3-customrow">
+            <div class="w3-customcolor" style="height:28px;width:95%"></div>
+        </div>
+        <p class="w3-wide">3D Modelling</p>
+        <div class="w3-customrow">
+            <div class="w3-customcolor" style="height:28px;width:85%"></div>
+        </div>
+        <p class="w3-wide">Web Design</p>
+        <div class="w3-customrow">
+            <div class="w3-customcolor" style="height:28px;width:60%"></div>
+        </div><br>
+
+        <div class="w3-row w3-center w3-padding-16 w3-section w3-customcolor">
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">30+</span><br>
+                Партнери
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">85+</span><br>
+                Проекти завршени
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">40+</span><br>
+                Среќни Клиенти
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">100+</span><br>
+                Состаноци
+            </div>
+        </div>
+
+
+        <!-- Цена -->
+        <h3 class="w3-padding-16 w3-text-header">Мојата цена</h3>
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half w3-margin-bottom">
+                <ul class="w3-ul w3-customrow w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-customcolor w3-xlarge w3-padding-32">Основен</li>
+                    <li class="w3-padding-16">Level Designer</li>
+                    <li class="w3-padding-16">3D Modelling</li>
+                    <li class="w3-padding-16">5GB Storage</li>
+                    <li class="w3-padding-16">Limited Revisions</li>
+                    <li class="w3-padding-16">
+                        <h2>$ 25</h2>
+                        <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-customcolor w3-padding-24">
+                        <button class="w3-button w3-customrow w3-padding-large w3-hover-customrow">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-half">
+                <ul class="w3-ul w3-customrow w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-customcolor w3-xlarge w3-padding-32">Професионален</li>
+                    <li class="w3-padding-16">Level Designer</li>
+                    <li class="w3-padding-16">3D Modelling</li>
+                    <li class="w3-padding-16">50GB Storage</li>
+                    <li class="w3-padding-16">Endless Revisions</li>
+                    <li class="w3-padding-16">
+                        <h2>$ 100</h2>
+                        <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-customcolor w3-padding-24">
+                        <button class="w3-button w3-customrow w3-padding-large w3-hover-customrow">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Крај на цена -->
+
+        <!-- Репутација -->
+        <h3 class="w3-padding-24 w3-text-header">Репутација</h3>
+        <img src="images/todd.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px; height:100px">
+        <p><span class="w3-large w3-margin-right">Todd Howard.</span> Director and executive producer at Bethesda Game Studios.</p>
+        <p>Slave did a wonderful job for our upcoming game TES6.</p><br>
+
+        <img src="images/hidetaka.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:8.5%; height:100%">
+        <p><span class="w3-large w3-margin-right">Hidetaka Miyazaki.</span> Creative director, designer, scriptwriter, and executive for the video game company FromSoftware.</p>
+        <p>Elden Ring wouldn't be the same without Slave.</p>
+    </div>
+    <!-- Крај на About -->
+
+    <!-- Портфолио секција -->
+    <div class="w3-padding-64 w3-content" id="photos">
+        <h2 class="w3-text-header">Моите левели</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <!-- Грид за левели -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+                <img src="levels/dust%202.jpg" style="width:100%">
+                <img src="levels/skyrim.png" style="width:100%">
+                <img src="levels/dark%20souls.jpeg" style="width:100%">
+            </div>
+
+            <div class="w3-half">
+                <img src="levels/celeste.png" style="width:100%">
+                <img src="levels/amnesia.jpg" style="width:100%">
+                <img src="levels/random.jpg" style="width:100%">
+
+            </div>
+        </div>
+        <!-- Крај на грид за левели -->
+    </div>
+    <!-- Крај на портфолио -->
+
+    <!-- Contact -->
+    <div class="w3-padding-64 w3-content w3-text" id="contact">
+        <h2 class="w3-text-header">Контактирај ме</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <div class="w3-section">
+            <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Veles, MK</p>
+            <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 133727</p>
+            <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: slave.slavkovski@students.finki.ukim.com</p>
+        </div><br>
+        <p>Пратете ми порака:</p>
+
+        <form action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+            <p>
+                <button class="w3-button w3-customcolor w3-padding-large" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </p>
+        </form>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </footer>
+    <!-- End footer -->
+</div>
+<!-- Крај на страница -->
+
+</body>
+</html>
